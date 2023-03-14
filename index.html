@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Playstation Jailbreak</h1>
+    <button onclick="openVideo()"></button>
+  </div>
+
+  <script>
+    function openVideo() {
+      console.log('working');
+      setTimeout(function() {
+        alert('Exploiting webkit and kernel...');
+      }, 4000);
+      setTimeout(function() {
+        alert('Running Payload...');
+      }, 3000);
+      setTimeout(function() {
+        window.location.replace('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+      }, 7000);
+    }
+  </script>
+</body>
+</html>
